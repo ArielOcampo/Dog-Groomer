@@ -1,15 +1,15 @@
-import { Col, Image, Layout, Row } from "antd";
+import { Image, Layout, Row } from "antd";
 
-import { Banner } from "../../assets";
-import NavMenu from "../common/NavMenu";
+import { Banner, Logo } from "../../assets";
+import { NavBar } from "../common";
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer } = Layout;
 
 const Home = () => {
   return (
     <Row>
       <Layout>
-        <Header>{<NavMenu />}</Header>
+        <NavBar />
         <Row justify="center" align="middle">
           <Image src={Banner} preview={false}></Image>
         </Row>
