@@ -1,14 +1,22 @@
-import { Layout } from "antd";
+import { Col, Image, Layout, Row } from "antd";
+
+import { Banner } from "../../assets";
+import NavMenu from "../common/NavMenu";
 
 const { Header, Footer, Sider, Content } = Layout;
 
 const Home = () => {
   return (
-    <Layout>
-      <Header>Header</Header>
-      <Content>Content</Content>
-      <Footer>Footer</Footer>
-    </Layout>
+    <Row>
+      <Layout>
+        <Header>{<NavMenu />}</Header>
+        <Row justify="center" align="middle">
+          <Image src={Banner} preview={false}></Image>
+        </Row>
+
+        <Footer>Footer</Footer>
+      </Layout>
+    </Row>
   );
 };
 
