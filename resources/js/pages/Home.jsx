@@ -1,7 +1,7 @@
 import { Image, Layout, Row } from "antd";
 
-import { Banner, Logo } from "../../assets";
-import { NavBar } from "../common";
+import { Banner } from "../../assets";
+import { Carousel, NavBar } from "../common";
 
 const { Content, Footer } = Layout;
 
@@ -12,7 +12,11 @@ const Home = () => {
       <Row justify="center" align="middle">
         <Image src={Banner} preview={false}></Image>
       </Row>
-      <Content>asdokapsdk</Content>
+      <Content style={{ padding: "0 50px" }}>
+        <div>
+          <Carousel />
+        </div>
+      </Content>
 
       <Footer>Footer</Footer>
     </Layout>
