@@ -11,4 +11,15 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  css: {
+    modules: {
+      localsConvention: "camelCaseOnly",
+    },
+    preprocessorOptions: {
+      less: {
+        modifyVars: { "primary-color": "#82ba49" },
+        javascriptEnabled: true,
+      },
+    },
+  },
 });
