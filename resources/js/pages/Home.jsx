@@ -2,7 +2,8 @@ import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Box } from "@mui/system";
 
-import { Carousel, NavBar, Reviews } from "../common";
+import { Carousel, Gallery, NavBar, Reviews } from "../common";
+import { Typography } from "@mui/material";
 
 const Home = () => {
   return (
@@ -19,9 +20,20 @@ const Home = () => {
           <Carousel />
         </Box>
         <Grid container justifyContent="center">
-          <Grid xs={10}>
-            <Box>
+          <Grid xs={12}>
+            <Typography sx={{ textAlign: "center", padding: 5, fontSize: 22 }}>
+              Lo que nuestros clientes opinan:
+            </Typography>
+            <Box sx={{ p: 2 }}>
               <Reviews />
+            </Box>
+            <Typography
+              sx={{ textAlign: "center", padding: "8px 0", fontSize: 22 }}
+            >
+              Algunos de nuestros trabajos:
+            </Typography>
+            <Box sx={{ pb: 2 }}>
+              <Gallery />
             </Box>
           </Grid>
         </Grid>
