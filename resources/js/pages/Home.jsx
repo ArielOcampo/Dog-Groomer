@@ -13,11 +13,11 @@ const Home = () => {
             <Box sx={{ pb: 3 }}>
               <NavBar />
             </Box>
-            <Box>
-              <Carousel />
-            </Box>
           </Grid>
         </Grid>
+        <Box sx={{ maxHeight: 800 }}>
+          <Carousel />
+        </Box>
       </Box>
     </>
   );
