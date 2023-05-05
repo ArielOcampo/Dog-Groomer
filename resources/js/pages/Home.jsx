@@ -19,25 +19,25 @@ const Home = () => {
         <Box sx={{ maxHeight: 800 }}>
           <Carousel />
         </Box>
-        <Grid container justifyContent="center">
-          <Grid xs={12}>
-            <Typography sx={{ textAlign: "center", padding: 5, fontSize: 22 }}>
+        {/* <Grid container justifyContent="center"> */}
+        {/* <Grid xs={12}> */}
+        {/* <Typography sx={{ textAlign: "center", padding: 5, fontSize: 22 }}>
               Lo que nuestros clientes opinan:
             </Typography>
-            <Box sx={{ p: 2 }}>
-              <Reviews />
-            </Box>
+
             <Typography
               sx={{ textAlign: "center", padding: "8px 0", fontSize: 22 }}
             >
               Algunos de nuestros trabajos:
-            </Typography>
-            <Box sx={{ pb: 2 }}>
-              <Gallery />
-            </Box>
-          </Grid>
-        </Grid>
+            </Typography> */}
+        <Box sx={{ p: 2 }}></Box>
+        <Box sx={{ pb: 2 }}>
+          <Gallery />
+        </Box>
+        {/* </Grid> */}
+        {/* </Grid> */}
       </Box>
+      <Reviews />
     </>
   );
 };
