@@ -7,8 +7,7 @@
 }
 .testimonials-heading {
   letter-spacing: 1px;
-  margin: 30px 0px;
-  padding: 10px 20px;
+  padding: 10px 10px;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -20,7 +19,7 @@
   font-weight: 500;
   background-color: #202020;
   color: #ffff;
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 .testimonial-box:hover {
   transform: translateY(-10px);

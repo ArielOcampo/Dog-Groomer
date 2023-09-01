@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import "./reviews.css";
+import "./Reviews.css";
 import { Avatar1 } from "@/assets";
 import { RatingG } from "..";
 
@@ -31,12 +31,104 @@ const Reviews = () => {
   console.log(reviews);
   return (
     <section id="testimonials">
-      {/* <div className="testimonials-heading">
-        <span>Comentarios </span>
+      <div className="testimonials-heading">
+        {/* <span>Comentarios </span> */}
         <h1>¿Que opinan nuestros clientes?</h1>
-      </div> */}
+      </div>
 
       <div className="testimonial-box-container">
+        <div className="testimonial-box">
+          <div className="box-top">
+            <div className="profile">
+              <div className="profile-img">
+                <img src={Avatar1} alt="Perfil" />
+              </div>
+              <div className="name-user">
+                <strong>Armando Paredes</strong>
+              </div>
+            </div>
+            <div className="reviews">
+              <RatingG />
+            </div>
+          </div>
+          <div className="client-comment">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              maiores rem vel porro dolore architecto voluptatibus placeat
+              excepturi sit. Accusantium sed, repudiandae perspiciatis quia
+              distinctio similique aspernatur molestias fugiat numquam?
+            </p>
+          </div>
+        </div>
+        <div className="testimonial-box">
+          <div className="box-top">
+            <div className="profile">
+              <div className="profile-img">
+                <img src={Avatar1} alt="Perfil" />
+              </div>
+              <div className="name-user">
+                <strong>Armando Paredes</strong>
+              </div>
+            </div>
+            <div className="reviews">
+              <RatingG />
+            </div>
+          </div>
+          <div className="client-comment">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              maiores rem vel porro dolore architecto voluptatibus placeat
+              excepturi sit. Accusantium sed, repudiandae perspiciatis quia
+              distinctio similique aspernatur molestias fugiat numquam?
+            </p>
+          </div>
+        </div>
+        <div className="testimonial-box">
+          <div className="box-top">
+            <div className="profile">
+              <div className="profile-img">
+                <img src={Avatar1} alt="Perfil" />
+              </div>
+              <div className="name-user">
+                <strong>Armando Paredes</strong>
+              </div>
+            </div>
+            <div className="reviews">
+              <RatingG />
+            </div>
+          </div>
+          <div className="client-comment">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              maiores rem vel porro dolore architecto voluptatibus placeat
+              excepturi sit. Accusantium sed, repudiandae perspiciatis quia
+              distinctio similique aspernatur molestias fugiat numquam?
+            </p>
+          </div>
+        </div>
+        <div className="testimonial-box">
+          <div className="box-top">
+            <div className="profile">
+              <div className="profile-img">
+                <img src={Avatar1} alt="Perfil" />
+              </div>
+              <div className="name-user">
+                <strong>Armando Paredes</strong>
+              </div>
+            </div>
+            <div className="reviews">
+              <RatingG />
+            </div>
+          </div>
+          <div className="client-comment">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              maiores rem vel porro dolore architecto voluptatibus placeat
+              excepturi sit. Accusantium sed, repudiandae perspiciatis quia
+              distinctio similique aspernatur molestias fugiat numquam?
+            </p>
+          </div>
+        </div>
         <div className="testimonial-box">
           <div className="box-top">
             <div className="profile">
