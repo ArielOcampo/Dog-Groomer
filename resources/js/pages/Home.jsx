@@ -2,7 +2,7 @@ import React from "react";
 import Grid from "@mui/material/Unstable_Grid2";
 import { Box } from "@mui/system";
 
-import { Carousel, Footer, Gallery, NavBar, Reviews } from "../common";
+import { AboutUs, Carousel, Footer, Gallery, NavBar, Reviews } from "../common";
 import { Typography } from "@mui/material";
 
 const Home = () => {
@@ -16,8 +16,12 @@ const Home = () => {
             </Box>
           </Grid>
         </Grid>
+
         <Box sx={{ maxHeight: 800 }}>
           <Carousel />
+        </Box>
+        <Box>
+          <AboutUs />
         </Box>
         <Grid container justifyContent="center">
           <Grid xs={12}>

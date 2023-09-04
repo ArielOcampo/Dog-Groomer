@@ -7,6 +7,7 @@ import { Pagination } from "swiper";
 
 import "./Gallery.less";
 import { Banner } from "@/assets/";
+
 const Gallery = () => {
   return (
     <Swiper
