@@ -6,4 +6,4 @@ export { default as Titulo } from "./img/titulo.png";
 export { default as Avatar1 } from "./img/avatar1.jpg";
 export { default as Pany } from "./img/pany.jpg";
 export { default as PanyProfile } from "./img/pany-profile.png";
-export { default as backgroundAbout } from "./img/background-banner.jpg";
+export { default as backgroundAbout } from "./img/backgroundBanner2.png";
